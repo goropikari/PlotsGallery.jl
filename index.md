@@ -45,21 +45,21 @@ gr()
 
 | Categorical histogram plot | heatmap chart | pie | contour plot |
 |----|----|----|----|
-| ![categorical_histogram.png](src/figures/categorical_histogram.png) | ![heatmapchart.png](src/figures/heatmapchart.png) | ![pie.png](src/figures/pie.png) | ![contour.png](src/figures/contour.png) |
+| ![categorical_histogram.png](src/figures/s_categorical_histogram.png) | ![heatmapchart.png](src/figures/s_heatmapchart.png) | ![pie.png](src/figures/s_pie.png) | ![contour.png](src/figures/s_contour.png) |
 | [View source](src/Categoricalhistogramplot.md) | [View source](src/heatmapchart.md) | [View source](src/pie.md) | [View source](src/contourplot.md) |
 
 <br>
 
 | Function Contour plot | polar plots | rose plot | scatter plot 2d |
 |----|----|----|----|
-| ![fncontour.png](src/figures/fncontour.png) | ![polar.png](src/figures/polar.png) | ![rose.png](src/figures/rose.png) | ![scatter2d.png](src/figures/scatter2d.png) |
+| ![fncontour.png](src/figures/s_fncontour.png) | ![polar.png](src/figures/s_polar.png) | ![rose.png](src/figures/s_rose.png) | ![scatter2d.png](src/figures/s_scatter2d.png) |
 | [View source](src/rncontour.md) | [View source](src/polar.md) | [View source](src/rose.md) | [View source](src/scatter2d.md) |
 
 <br>
 
 | scatter plot 3d | stem plot | step plot | error bar |
 |----|----|----|----|
-| ![scatter3d.png](src/figures/scatter3d.png) | ![stem.png](src/figures/stem.png) | ![step.png](src/figures/step.png) | ![errorbar.png](src/figures/errorbar.png) |
+| ![scatter3d.png](src/figures/s_scatter3d.png) | ![stem.png](src/figures/s_stem.png) | ![step.png](src/figures/s_step.png) | ![errorbar.png](src/figures/s_errorbar.png) |
 | [View source](src/scatter3d.md) | [View source](src/stem.md) | [View source](src/step.md) | [View source](src/errorbar.md) |
 
 <br>
