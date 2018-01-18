@@ -2,6 +2,8 @@
 
 [https://goropikari.github.io/JuliaPlotsGallery.jl/](https://goropikari.github.io/JuliaPlotsGallery.jl/)
 
+[jupyter notebook version](http://nbviewer.jupyter.org/github/goropikari/JuliaPlotsGallery.jl/blob/master/PlotsGallery.ipynb)
+
 ## Example
 
  ![s_line_plot1.png](src/figures/s_line_plot1.png) ![s_line_plot2.png](src/figures/s_line_plot2.png) ![s_datetime_plot1.png](src/figures/s_datetime_plot1.png) ![s_function1.png](src/figures/s_function1.png) 
