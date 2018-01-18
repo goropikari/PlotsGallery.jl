@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: [Julia Plots Gallery]
+description: [These figures are drawed by Plots.jl]
+show_downloads: ["true"]
