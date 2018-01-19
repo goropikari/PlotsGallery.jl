@@ -43,24 +43,32 @@ gr()
 
 <br>
 
-| Categorical histogram plot                                            | heatmap chart                                       | pie                               | contour plot                              |
-| ----                                                                  | ----                                                | ----                              | ----                                      |
-| ![categorical_histogram.png](src/figures/s_categorical_histogram.png) | ![heatmapchart.png](src/figures/s_heatmapchart.png) | ![pie.png](src/figures/s_pie.png) | ![contour.png](src/figures/s_contour.png) |
-| [View source](src/Categoricalhistogramplot.md)                        | [View source](src/heatmapchart.md)                  | [View source](src/pie.md)         | [View source](src/contourplot.md)         |
+| Categorical histogram plot                                            | heatmap chart                                       | pie                               | box plot                               |
+| ----                                                                  | ----                                                | ----                              | ----                                   |
+| ![categorical_histogram.png](src/figures/s_categorical_histogram.png) | ![heatmapchart.png](src/figures/s_heatmapchart.png) | ![pie.png](src/figures/s_pie.png) | ![pie.png](src/figures/s_boxplot.png)  |
+| [View source](src/Categoricalhistogramplot.md)                        | [View source](src/heatmapchart.md)                  | [View source](src/pie.md)         | [View source](src/boxplot.md)          |
 
 <br>
 
-| Function Contour plot                         | polar plots                           | rose plot                           | scatter plot 2d                               |
-| ----                                          | ----                                  | ----                                | ----                                          |
-| ![fncontour.png](src/figures/s_fncontour.png) | ![polar.png](src/figures/s_polar.png) | ![rose.png](src/figures/s_rose.png) | ![scatter2d.png](src/figures/s_scatter2d.png) |
-| [View source](src/rncontour.md)               | [View source](src/polar.md)           | [View source](src/rose.md)          | [View source](src/scatter2d.md)               |
+| contour plot                              | Function Contour plot                         | polar plots                           | rose plot                           |
+| ----                                      | ----                                          | ----                                  | ----                                |
+| ![contour.png](src/figures/s_contour.png) | ![fncontour.png](src/figures/s_fncontour.png) | ![polar.png](src/figures/s_polar.png) | ![rose.png](src/figures/s_rose.png) |
+| [View source](src/contourplot.md)         | [View source](src/rncontour.md)               | [View source](src/polar.md)           | [View source](src/rose.md)          |
 
 <br>
 
-| scatter plot 3d                               | stem plot                           | step plot                           | error bar                                   |
-| ----                                          | ----                                | ----                                | ----                                        |
-| ![scatter3d.png](src/figures/s_scatter3d.png) | ![stem.png](src/figures/s_stem.png) | ![step.png](src/figures/s_step.png) | ![errorbar.png](src/figures/s_errorbar.png) |
-| [View source](src/scatter3d.md)               | [View source](src/stem.md)          | [View source](src/step.md)          | [View source](src/errorbar.md)              |
+| scatter plot 2d                               | scatter plot 3d                               | 
+| ----                                          | ----                                          | 
+| ![scatter2d.png](src/figures/s_scatter2d.png) | ![scatter3d.png](src/figures/s_scatter3d.png) | 
+| [View source](src/scatter2d.md)               | [View source](src/scatter3d.md)               | 
+
+<br>
+
+| stem plot                           | step plot                           | error bar                                   |
+| ----                                | ----                                | ----                                        |
+| ![stem.png](src/figures/s_stem.png) | ![step.png](src/figures/s_step.png) | ![errorbar.png](src/figures/s_errorbar.png) |
+| [View source](src/stem.md)          | [View source](src/step.md)          | [View source](src/errorbar.md)              |
+
 
 <br>
 
