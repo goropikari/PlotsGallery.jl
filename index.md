@@ -22,16 +22,16 @@ gr()
 
 <br>
 
-| implicit function                             | parametric 2d                                         | parametric 3d                                         | 
+| implicit function                             | parametric 2d                                         | parametric 3d                                         |
 | ----                                          | ----                                                  | ----                                                  |
-| ![s_implicit.png](src/figures/s_implicit.png) | ![s_parametric2d.png](src/figures/s_parametric2d.png) | ![s_parametric3d.png](src/figures/s_parametric3d.png) | 
+| ![s_implicit.png](src/figures/s_implicit.png) | ![s_parametric2d.png](src/figures/s_parametric2d.png) | ![s_parametric3d.png](src/figures/s_parametric3d.png) |
 | [View source](src/implicit.md)                | [View source](src/parametric2d.md)                    | [View source](src/parametric3d.md)                    |
 
 <br>
 
-| semilog x                                     | semilog y                                     | log-log                                   | 
+| semilog x                                     | semilog y                                     | log-log                                   |
 | ----                                          | ----                                          | ----                                      |
-| ![s_semilogx.png](src/figures/s_semilogx.png) | ![s_semilogy.png](src/figures/s_semilogy.png) | ![s_loglog.png](src/figures/s_loglog.png) | 
+| ![s_semilogx.png](src/figures/s_semilogx.png) | ![s_semilogy.png](src/figures/s_semilogy.png) | ![s_loglog.png](src/figures/s_loglog.png) |
 | [View source](src/semilogx.md)                | [View source](src/semilogy.md)                | [View source](src/loglog.md)              |
 
 <br>
@@ -74,7 +74,7 @@ gr()
 | Quiver 2d                                   | Surface                                   | Mesh                                |
 | ----                                        | ----                                      | ----                                |
 | ![quiver2d.png](src/figures/s_quiver2d.png) | ![surface.png](src/figures/s_surface.png) | ![mesh.png](src/figures/s_mesh.png) |
-| [View source](src/quiver2d.md)              | [View source](src/surface.md)             | [View source](src/mesh.md)          | 
+| [View source](src/quiver2d.md)              | [View source](src/surface.md)             | [View source](src/mesh.md)          |
 
 
 
