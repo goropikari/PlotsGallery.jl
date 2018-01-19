@@ -83,3 +83,10 @@ gr()
 |----|----|----|----|
 | ![colorplot.png](src/figures/s_colorplot.png) | ![linestyle.png](src/figures/s_linestyle.png) | ![markertypes.png](src/figures/s_markertypes.png) | ![latex.png](src/figures/s_latex.png) |
 | [View source](src/colorplot.md) | [View source](src/linestyle.md) | [View source](src/markertypes.md) | [View source](src/latex.md) |
+
+<br>
+
+| Axis | Font |
+|----|----|
+| ![colorplot.png](src/figures/s_axis.png) | ![linestyle.png](src/figures/s_font.png) |
+| [View source](src/axis.md) | [View source](src/font.md) |
