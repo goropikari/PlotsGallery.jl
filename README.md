@@ -1,5 +1,5 @@
 # Julia Plots Gallery
-
+Web site  
 [https://goropikari.github.io/JuliaPlotsGallery.jl/](https://goropikari.github.io/JuliaPlotsGallery.jl/)
 
 [jupyter notebook version](http://nbviewer.jupyter.org/github/goropikari/JuliaPlotsGallery.jl/blob/master/PlotsGallery.ipynb)
@@ -25,3 +25,6 @@
 ![quiver2d.png](src/figures/s_quiver2d.png) ![surface.png](src/figures/s_surface.png) ![mesh.png](src/figures/s_mesh.png)
 
 ![colorplot.png](src/figures/s_colorplot.png) ![linestyle.png](src/figures/s_linestyle.png) ![markertypes.png](src/figures/s_markertypes.png) ![latex.png](src/figures/s_latex.png)
+
+# Contributing
+I appreciate all kinds of help. Please feel free to open an issue.
