@@ -2,15 +2,17 @@
 
 This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot Gallery](https://jp.mathworks.com/products/matlab/plot-gallery.html).
 
-Figures are drawed by [Plots.jl](https://github.com/JuliaPlots/Plots.jl) with GR backend except for two y axis plot.
+Figures are ploted by [Plots.jl](https://github.com/JuliaPlots/Plots.jl).
 
-## Environment
+## Tested Environment
 - Julia version 0.6.2
-- Plots.jl version 0.14.2
+- Plots.jl version 0.17.1
+- PyPlot.jl version 2.5.0
+- GR.jl version 0.31.0
+
 
 ```julia
 using Plots
-gr()
 ```
 
 ## Standard plots
@@ -57,10 +59,10 @@ gr()
 
 <br>
 
-| scatter plot 2d                               | scatter plot 3d                               | 
-| ----                                          | ----                                          | 
-| ![scatter2d.png](src/figures/s_scatter2d.png) | ![scatter3d.png](src/figures/s_scatter3d.png) | 
-| [View source](src/scatter2d.md)               | [View source](src/scatter3d.md)               | 
+| scatter plot 2d                               | scatter plot 3d                               |
+| ----                                          | ----                                          |
+| ![scatter2d.png](src/figures/s_scatter2d.png) | ![scatter3d.png](src/figures/s_scatter3d.png) |
+| [View source](src/scatter2d.md)               | [View source](src/scatter3d.md)               |
 
 <br>
 
