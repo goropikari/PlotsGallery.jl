@@ -1,4 +1,7 @@
 # Julia Plots Gallery
+
+This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot Gallery](https://jp.mathworks.com/products/matlab/plot-gallery.html).
+
 Web site  
 [https://goropikari.github.io/JuliaPlotsGallery.jl/](https://goropikari.github.io/JuliaPlotsGallery.jl/)
 
