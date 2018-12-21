@@ -1,14 +1,14 @@
-# Julia Plots Gallery
+# Plots Gallery
 
 This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot Gallery](https://jp.mathworks.com/products/matlab/plot-gallery.html).
 
 Figures are ploted by [Plots.jl](https://github.com/JuliaPlots/Plots.jl).
 
 ## Tested Environment
-- [Julia](https://julialang.org/) version 0.6.2
-- [Plots.jl](https://github.com/JuliaPlots/Plots.jl) version 0.17.1
-- [PyPlot.jl](https://github.com/JuliaPy/PyPlot.jl) version 2.5.0
-- [GR.jl](https://github.com/jheinen/GR.jl) version 0.31.0
+- [Julia](https://julialang.org/) version 1.0.3
+- [Plots.jl](https://github.com/JuliaPlots/Plots.jl) version 0.8.2
+- [PyPlot.jl](https://github.com/JuliaPy/PyPlot.jl) version 2.6.3
+- [GR.jl](https://github.com/jheinen/GR.jl) version 0.36.0
 
 
 ```julia
