@@ -2,10 +2,13 @@
 
 This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot Gallery](https://jp.mathworks.com/products/matlab/plot-gallery.html).
 
-Web site  
-[https://goropikari.github.io/PlotsGallery.jl/](https://goropikari.github.io/PlotsGallery.jl/)
 
 [jupyter notebook version](http://nbviewer.jupyter.org/github/goropikari/PlotsGallery.jl/blob/master/PlotsGallery.ipynb)
+
+Web site (old)
+[https://goropikari.github.io/PlotsGallery.jl/](https://goropikari.github.io/PlotsGallery.jl/)
+
+
 
 ## Example
 
