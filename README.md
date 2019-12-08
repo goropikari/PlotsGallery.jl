@@ -5,11 +5,6 @@ This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot
 
 [jupyter notebook version](http://nbviewer.jupyter.org/github/goropikari/PlotsGallery.jl/blob/master/PlotsGallery.ipynb)
 
-Web site (old)
-[https://goropikari.github.io/PlotsGallery.jl/](https://goropikari.github.io/PlotsGallery.jl/)
-
-
-
 ## Example
 
  ![s_line_plot1.png](src/figures/s_line_plot1.png) ![s_line_plot2.png](src/figures/s_line_plot2.png) ![s_datetime_plot1.png](src/figures/s_datetime_plot1.png) ![s_function1.png](src/figures/s_function1.png) 
