@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook
+FROM jupyter/base-notebook:notebook-6.0.3
 
 ENV JULIA_MINOR_VERSION=1.4
 ENV JULIA_PATCH_VERSION=0
