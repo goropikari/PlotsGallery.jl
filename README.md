@@ -27,5 +27,12 @@ This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot
 
 ![colorplot.png](src/figures/s_colorplot.png) ![linestyle.png](src/figures/s_linestyle.png) ![markertypes.png](src/figures/s_markertypes.png) ![latex.png](src/figures/s_latex.png)
 
+
+# Docker
+```bash
+docker-compose build
+docker-compose up
+```
+
 # Contributing
 I appreciate all kinds of help. Please feel free to open an issue.
