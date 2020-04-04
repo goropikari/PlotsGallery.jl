@@ -2,13 +2,14 @@
 
 This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot Gallery](https://jp.mathworks.com/products/matlab/plot-gallery.html).
 
+[jupyter notebook version](http://nbviewer.jupyter.org/github/goropikari/PlotsGallery.jl/blob/master/PlotsGallery.ipynb)
+
 # Docker
 ```bash
 docker-compose build
 docker-compose up
 ```
 
-[jupyter notebook version](http://nbviewer.jupyter.org/github/goropikari/PlotsGallery.jl/blob/master/PlotsGallery.ipynb)
 
 ## Example
 
