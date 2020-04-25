@@ -1,6 +1,8 @@
 # ## Scatter plot
 # ### Scatter plot 2d
 
+#md # ![FILE_NAME.png](images/FILE_NAME.png)
+
 Random.seed!(2018)
 
 n = 50
