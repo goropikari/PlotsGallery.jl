@@ -3,6 +3,7 @@
 
 #md # ![FILE_NAME.png](images/FILE_NAME.png)
 
+using Random
 Random.seed!(2018)
 
 x = randn(1000)
