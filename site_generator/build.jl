@@ -77,14 +77,14 @@ end
 include("index.jl")
 
 # Generate figures
-# ENV["GKS_ENCODING"]="utf-8" # for scientific formatter
-# using Plots;
-# gr()
-# 
-# for file in target_files
-#     include(file)
-#     name = splitext(file)[1] * ".png"
-#     OUTPUT_DIR = "output/src/images/"
-#     savefig(OUTPUT_DIR * name)
-#     run(`convert $(OUTPUT_DIR * name) -resize 30% $(OUTPUT_DIR)small_$(name)`)
-# end
+ENV["GKS_ENCODING"]="utf-8" # for scientific formatter
+using Plots;
+gr()
+
+for file in target_files
+    include(file)
+    name = splitext(file)[1] * ".png"
+    OUTPUT_DIR = "output/src/images/"
+    savefig(OUTPUT_DIR * name)
+    run(`convert $(OUTPUT_DIR * name) -resize 30% $(OUTPUT_DIR)small_$(name)`)
+end
