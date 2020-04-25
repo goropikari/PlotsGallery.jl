@@ -1,4 +1,4 @@
-## Box plot (2)
+### Box plot (2)
 
 ![boxplot2.png](images/boxplot2.png)
 
