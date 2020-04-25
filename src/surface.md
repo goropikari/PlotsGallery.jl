@@ -1,6 +1,7 @@
-# Surface
+## Surface
+### Surface (1)
 
-![surface](figures/surface.png)
+![surface.png](images/surface.png)
 
 ```julia
 f(x,y) = x^2 + y^2
@@ -9,7 +10,7 @@ y = x
 surface(x, y, f)
 ```
 
-```julia
-# same
-plot(x, y, f, linetype=:surface)
-```
+---
+
+*This page was generated using [Literate.jl](https://github.com/fredrikekre/Literate.jl).*
+

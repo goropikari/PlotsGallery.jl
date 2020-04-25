@@ -1,17 +1,19 @@
-# Box plot
+## Box plot
+### Box plot (1)
 
-![boxplot.png](figures/boxplot.png)
+![boxplot.png](images/boxplot.png)
 
 ```julia
-using StatPlots
-srand(2018)
+using StatsPlots, Statistics, Random
+Random.seed!(2018)
 
 n = 30
 science = rand(1:10, n)
-english = rand(1:10, n)
-
 @show median(science)
-@show median(english)
-
-boxplot([science english], label=["science" "english"])
+boxplot(["science"], science)
 ```
+
+---
+
+*This page was generated using [Literate.jl](https://github.com/fredrikekre/Literate.jl).*
+
