@@ -3,6 +3,7 @@
 ![scatter3d.png](images/scatter3d.png)
 
 ```julia
+using Random
 Random.seed!(2018)
 
 n = 50
