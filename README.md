@@ -106,3 +106,8 @@ I appreciate all kinds of help. Please feel free to open an issue.
 ```
 docker-compose run ijulia site
 ```
+
+# Reference
+Speed up plotting by [PackageCompiler](https://github.com/JuliaLang/PackageCompiler.jl)
+
+- [Creating a sysimage for fast plotting with Plots.jl](https://julialang.github.io/PackageCompiler.jl/dev/examples/plots/)
