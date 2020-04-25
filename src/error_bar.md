@@ -3,6 +3,7 @@
 ![error_bar.png](images/error_bar.png)
 
 ```julia
+using Random
 Random.seed!(2018)
 
 f(x) = 2 * x + 1

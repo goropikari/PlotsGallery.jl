@@ -5,7 +5,7 @@
 ```julia
 # This outputs BoundsError. This is a bug of StatPlots.jl.
 # Boxplot and violin broken - https://github.com/JuliaPlots/StatPlots.jl/issues/198
-using StatsPlots, Statistics
+using StatsPlots, Statistics, Random
 Random.seed!(2018)
 
 n = 30

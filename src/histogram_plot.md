@@ -4,6 +4,7 @@
 ![histogram_plot.png](images/histogram_plot.png)
 
 ```julia
+using Random
 Random.seed!(2018)
 
 x = randn(1000)

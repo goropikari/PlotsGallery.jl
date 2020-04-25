@@ -3,6 +3,7 @@
 ![rose.png](images/rose.png)
 
 ```julia
+using Random
 Random.seed!(2018)
 
 n = 24

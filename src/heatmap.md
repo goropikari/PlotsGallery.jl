@@ -3,6 +3,7 @@
 ![heatmap.png](images/heatmap.png)
 
 ```julia
+using Random
 Random.seed!(2018)
 
 a = rand(5,5)
