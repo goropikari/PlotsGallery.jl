@@ -8,3 +8,6 @@ services:
 
     volumes:
       - .:/home/jovyan/PlotsGallery
+
+    working_dir: /home/jovyan/PlotsGallery
+    entrypoint: bash /home/jovyan/PlotsGallery/entrypoint.sh

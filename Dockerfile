@@ -8,8 +8,9 @@ RUN wget https://julialang-s3.julialang.org/bin/linux/x64/${JULIA_MINOR_VERSION}
 
 USER root
 RUN apt-get update && \
-    apt-get install -y texlive-science texlive-latex-extra cm-super dvipng && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+    apt-get install -y texlive-science texlive-latex-extra cm-super dvipng imagemagick && \
+    apt-get clean && rm -rf /var/lib/apt/lists/* && \
+    ln -s $(pwd)/julia-$JULIA_MINOR_VERSION.$JULIA_PATCH_VERSION/bin/julia /usr/bin/julia
 
 USER $NB_UID
 RUN conda install --quiet --yes matplotlib

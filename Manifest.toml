@@ -292,6 +292,12 @@ version = "7.0.1"
 deps = ["Libdl"]
 uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
+[[Literate]]
+deps = ["Base64", "JSON", "REPL"]
+git-tree-sha1 = "7345603884151a5ef894fb85949a8a4faeae8e10"
+uuid = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
+version = "2.4.0"
+
 [[Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
@@ -600,6 +606,14 @@ version = "0.14.5"
 [[SuiteSparse]]
 deps = ["Libdl", "LinearAlgebra", "Serialization", "SparseArrays"]
 uuid = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
+
+[[TOML]]
+deps = ["Dates"]
+git-tree-sha1 = "cc544eef6bc464417d7fd5ad2eb385169ec26ac5"
+repo-rev = "master"
+repo-url = "https://github.com/JuliaLang/TOML.jl.git"
+uuid = "191fdcea-f9f2-43e0-b922-d33f71e2abc3"
+version = "0.4.0"
 
 [[TableOperations]]
 deps = ["Tables", "Test"]
