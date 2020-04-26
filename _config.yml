@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 title: [Julia Plots Gallery]
 description: [These figures are made by Plots.jl]
-show_downloads: ["true"]
+show_downloads: ["false"]
 google_analytics: UA-112840751-1
