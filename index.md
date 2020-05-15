@@ -6,9 +6,9 @@ Figures are ploted by [Plots.jl](https://github.com/JuliaPlots/Plots.jl).
 
 ## Tested Environment
 - Julia 1.4.1
-- Plots 1.2.0
+- Plots 1.2.5
 - PyPlot 2.9.0
-- GR 0.48.0
+- GR 0.49.1
 
 For all plots, you should import Plots.
 ```julia
