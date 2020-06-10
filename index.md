@@ -5,10 +5,10 @@ This site is an unofficial Plots.jl Gallery site. It is inspired by [MATLAB Plot
 Figures are ploted by [Plots.jl](https://github.com/JuliaPlots/Plots.jl).
 
 ## Tested Environment
-- Julia 1.4.1
-- Plots 1.2.5
+- Julia 1.4.2
+- Plots 1.4.0
 - PyPlot 2.9.0
-- GR 0.49.1
+- GR 0.50.1
 
 For all plots, you should import Plots.
 ```julia
