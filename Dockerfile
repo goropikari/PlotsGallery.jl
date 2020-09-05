@@ -1,7 +1,7 @@
 FROM jupyter/base-notebook:notebook-6.0.3
 
 ENV JULIA_MINOR_VERSION=1.5
-ENV JULIA_PATCH_VERSION=0
+ENV JULIA_PATCH_VERSION=1
 RUN wget https://julialang-s3.julialang.org/bin/linux/x64/${JULIA_MINOR_VERSION}/julia-${JULIA_MINOR_VERSION}.${JULIA_PATCH_VERSION}-linux-x86_64.tar.gz && \
     tar xvf julia-${JULIA_MINOR_VERSION}.${JULIA_PATCH_VERSION}-linux-x86_64.tar.gz && \
     ./julia-$JULIA_MINOR_VERSION.$JULIA_PATCH_VERSION/bin/julia -e 'using Pkg; Pkg.update(); Pkg.pkg"add Plots IJulia"; Pkg.precompile()'
