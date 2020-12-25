@@ -10,7 +10,7 @@ Random.seed!(2018)
 n = 30
 science = rand(1:10, n)
 @show median(science)
-boxplot(["science"], science)
+boxplot(science, label=permutedims(["science"]))
 ```
 
 ---
