@@ -14,4 +14,4 @@ english = rand(1:10, n)
 @show median(science)
 @show median(english)
 
-boxplot(["science" "english"], [science english])
+boxplot([science english], label=["science" "english"])
