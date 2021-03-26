@@ -2,7 +2,7 @@ using InteractiveUtils
 versioninfo()
 #-
 using Pkg
-Pkg.activate()
+Pkg.activate(".")
 
 #-
 ## Pkg.update()

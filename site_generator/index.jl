@@ -1,6 +1,3 @@
-using Pkg
-Pkg.pkg"add https://github.com/JuliaLang/TOML.jl.git"
-
 using TOML
 pkgs = TOML.parsefile("../Manifest.toml")
 
