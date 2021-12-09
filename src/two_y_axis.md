@@ -2,7 +2,7 @@
 
 ![two_y_axis.png](images/two_y_axis.png)
 
-```julia
+````julia
 # pyplot()
 using Measures, Random
 
@@ -14,7 +14,7 @@ plot!(twinx(), randn(100)*10,
     leg=:bottomright,
     size=(600, 400))
 plot!(right_bottom=10mm)
-```
+````
 
 ---
 

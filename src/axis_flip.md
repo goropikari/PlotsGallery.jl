@@ -2,14 +2,14 @@
 
 ![axis_flip.png](images/axis_flip.png)
 
-```julia
+````julia
 plot(x->x, 0:0.01:2π,
     proj=:polar,
     xflip=true,
     yflip=true,
     # flip=true # x,y-flip
 )
-```
+````
 
 ---
 

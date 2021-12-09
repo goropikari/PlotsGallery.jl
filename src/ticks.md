@@ -2,7 +2,7 @@
 
 ![ticks.png](images/ticks.png)
 
-```julia
+````julia
 plot(sin, 0, 2π,
     xtick=(0:0.5:2π, ["$i a" for i in 0:0.5:2π]),
     ytick=-1:0.2:1,
@@ -10,7 +10,7 @@ plot(sin, 0, 2π,
     yrotation=90,
     # rotation=60, # x,y ticks rotation
 )
-```
+````
 
 ---
 

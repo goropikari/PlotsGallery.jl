@@ -2,7 +2,7 @@
 
 ![latex1.png](images/latex1.png)
 
-```julia
+````julia
 # ref https://jp.mathworks.com/matlabcentral/fileexchange/35237-matlab-plot-gallery-adding-latex-to-plots?focused=6792946&tab=example
 
 using LaTeXStrings, Measures
@@ -18,7 +18,7 @@ plot(fib,
     xlabel=L"n",
     ylabel=L"F_n",
     annotation=(5, 100, L"F_n = \frac{1}{\sqrt{5}} \left[\left( \frac{1+\sqrt{5}}{2} \right)^n - \left( \frac{1-\sqrt{5}}{2} \right)^n \right]"))
-```
+````
 
 ---
 

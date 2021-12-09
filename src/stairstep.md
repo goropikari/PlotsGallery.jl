@@ -2,10 +2,10 @@
 
 ![stairstep.png](images/stairstep.png)
 
-```julia
+````julia
 x = sin.(0:0.3:2pi)
 plot(x, line=:steppre, markersize=20)
-```
+````
 
 ---
 

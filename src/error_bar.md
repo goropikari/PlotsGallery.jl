@@ -2,7 +2,7 @@
 
 ![error_bar.png](images/error_bar.png)
 
-```julia
+````julia
 using Random
 Random.seed!(2018)
 
@@ -13,7 +13,7 @@ y = f.(x) + randn(n)
 plot(x, y,
     xerr=0.1 * rand(n),
     yerr=rand(n))
-```
+````
 
 ---
 

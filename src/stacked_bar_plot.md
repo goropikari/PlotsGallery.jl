@@ -2,7 +2,7 @@
 
 ![stacked_bar_plot.png](images/stacked_bar_plot.png)
 
-```julia
+````julia
 using StatsPlots
 
 measles = [38556, 24472, 14556, 18060, 19549, 8122, 28541, 7880, 3283, 4135, 7953, 1884]
@@ -16,7 +16,7 @@ groupedbar([measles mumps chickenPox],
         bar_width=0.7,
         xticks=(1:12, ticklabel),
         label=["measles" "mumps" "chickenPox"])
-```
+````
 
 ---
 

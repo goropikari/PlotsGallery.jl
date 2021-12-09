@@ -42,6 +42,7 @@ include("horizontal_bar_plot.jl")
 
 include("histogram_plot.jl")
 include("categorical_histogram_plot.jl")
+include("histogram_2d.jl")
 
 include("boxplot.jl")
 include("boxplot2.jl")

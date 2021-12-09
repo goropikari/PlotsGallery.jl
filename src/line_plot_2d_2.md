@@ -2,7 +2,7 @@
 
 ![line_plot_2d_2.png](images/line_plot_2d_2.png)
 
-```julia
+````julia
 using Random
 Random.seed!(2018)
 
@@ -18,7 +18,7 @@ plot(1:time, [warlker1 warlker2 warlker3 warlker4 warlker5],
     ylabel="position",
     label=["walker1" "walker2" "walker3" "walker4" "walker5"],
     leg=:bottomleft)
-```
+````
 
 ---
 

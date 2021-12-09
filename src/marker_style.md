@@ -1,10 +1,10 @@
-```julia
+````julia
 # Marker style
-```
+````
 
 ![marker_style.png](images/marker_style.png)
 
-```julia
+````julia
 # ref https://jp.mathworks.com/matlabcentral/fileexchange/35231-matlab-plot-gallery-standard-plot-markers?focused=6792907&tab=example
 
 using SpecialFunctions
@@ -19,11 +19,11 @@ y4 = besselj.(4,x);
 plot(x, [y0 y1 y2 y3 y4],
     marker=[:circle :rect :star5 :diamond :hexagon],
     line=false)
-```
+````
 
-```julia
+````julia
 Plots.supported_markers()
-```
+````
 
 ---
 

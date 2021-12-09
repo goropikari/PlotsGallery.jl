@@ -2,10 +2,10 @@
 
 ![horizontal_bar_plot.png](images/horizontal_bar_plot.png)
 
-```julia
+````julia
 ticklabel = string.(collect('a':'l'))
 bar(1:12, orientation=:h, yticks=(1:12, ticklabel), yflip=true)
-```
+````
 
 ---
 

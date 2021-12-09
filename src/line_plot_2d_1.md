@@ -2,7 +2,7 @@
 
 ![line_plot_2d_1.png](images/line_plot_2d_1.png)
 
-```julia
+````julia
 x = 0:0.1:2pi
 y1 = cos.(x)
 y2 = sin.(x)
@@ -15,9 +15,9 @@ ylabel!("sin(x) and cos(x)")
 
 # axis limit
 plot!(xlims=(0,2pi), ylims=(-2, 2))
-```
+````
 
-```julia
+````julia
 # same plot
 x = 0:0.1:2pi
 y1 = cos.(x)
@@ -32,7 +32,7 @@ plot(x, y1,
 plot!(x, y2, c="red", line=:dash)
 
 plot!(xlims=(0,2pi), ylims=(-2, 2))
-```
+````
 
 ---
 

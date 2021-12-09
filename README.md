@@ -102,7 +102,7 @@ docker-compose up
 I appreciate all kinds of help. Please feel free to open an issue.
 
 
-# Generate notebook and site contents
+# (For me) Generate notebook and site contents
 ```
 docker-compose run ijulia site
 ```

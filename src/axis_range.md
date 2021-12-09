@@ -2,9 +2,9 @@
 
 ![axis_range.png](images/axis_range.png)
 
-```julia
+````julia
 plot(sin, 0, 2π, xlims=(-10, 10), ylims=(-2,2))
-```
+````
 
 ---
 

@@ -2,7 +2,7 @@
 
 ![standard_line_colors.png](images/standard_line_colors.png)
 
-```julia
+````julia
 # ref https://jp.mathworks.com/matlabcentral/fileexchange/35229-matlab-plot-gallery-standard-line-colors?focused=6792895&tab=example
 
 using SpecialFunctions
@@ -23,7 +23,7 @@ plot!(x, y3, c=:cyan)
 plot!(x, y4, c=:magenta)
 plot!(x, y5, c=:yellow)
 plot!(x, y6, c=:black)
-```
+````
 
 ---
 

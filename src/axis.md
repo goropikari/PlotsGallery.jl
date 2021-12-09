@@ -3,7 +3,7 @@
 
 ![axis.png](images/axis.png)
 
-```julia
+````julia
 using Measures
 gr()
 
@@ -12,7 +12,7 @@ plot(sin, 0, 2π,
     xrotation=60,
     xtickfont=font(30),
     bottom_margin=15mm)
-```
+````
 
 ---
 

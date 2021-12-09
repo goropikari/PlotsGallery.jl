@@ -3,9 +3,9 @@
 
 ![semilogy.png](images/semilogy.png)
 
-```julia
+````julia
 plot(exp, -5, 5, yscale=:log10, title="semilogy")
-```
+````
 
 ---
 

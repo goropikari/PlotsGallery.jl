@@ -2,9 +2,9 @@
 
 ![no_axis.png](images/no_axis.png)
 
-```julia
+````julia
 plot(sin, 0, 2π, axis=false)
-```
+````
 
 ---
 

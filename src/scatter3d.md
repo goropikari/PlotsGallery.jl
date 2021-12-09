@@ -2,7 +2,7 @@
 
 ![scatter3d.png](images/scatter3d.png)
 
-```julia
+````julia
 using Random
 Random.seed!(2018)
 
@@ -12,7 +12,7 @@ y = rand(n)
 z = rand(n)
 ms = rand(50) * 30
 scatter(x, y, z, markersize=ms)
-```
+````
 
 ---
 

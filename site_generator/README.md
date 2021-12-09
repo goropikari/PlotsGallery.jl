@@ -10,8 +10,7 @@ code
 ```
 
 
-
-Modify `notebook.jl`
+`notebook.jl` を編集して作成した julia ファイルを読むこむようにする
 
 ```
 julia build.jl

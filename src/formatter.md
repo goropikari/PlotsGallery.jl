@@ -2,9 +2,9 @@
 
 ![formatter.png](images/formatter.png)
 
-```julia
+````julia
 plot(exp, 0, 10, yformatter=:scientific)
-```
+````
 
 ---
 

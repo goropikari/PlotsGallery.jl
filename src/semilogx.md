@@ -2,9 +2,9 @@
 
 ![semilogx.png](images/semilogx.png)
 
-```julia
+````julia
 plot(log, 0+0.00001, 5, xscale=:log10, title="semilogx")
-```
+````
 
 ---
 

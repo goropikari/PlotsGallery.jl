@@ -2,7 +2,7 @@
 
 ![font.png](images/font.png)
 
-```julia
+````julia
 using Measures, LaTeXStrings
 
 plot(sin, 0, 2π,
@@ -30,7 +30,7 @@ plot(sin, 0, 2π,
     left_margin=10mm,
     top_margin=15mm
 )
-```
+````
 
 ---
 

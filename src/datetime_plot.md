@@ -3,7 +3,7 @@ https://github.com/JuliaPlots/Plots.jl/issues/356
 
 ![datetime_plot.png](images/datetime_plot.png)
 
-```julia
+````julia
 using Measures, Random, Dates
 
 Random.seed!(2018)
@@ -20,7 +20,7 @@ plot(x, position,
     xrotation=45,
     bottom_margin=15mm,
     left_margin=5mm)
-```
+````
 
 ---
 

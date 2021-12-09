@@ -2,11 +2,11 @@
 
 ![line_style.png](images/line_style.png)
 
-```julia
+````julia
 Plots.supported_styles()
-```
+````
 
-```julia
+````julia
 # ref https://jp.mathworks.com/matlabcentral/fileexchange/35230-matlab-plot-gallery-standard-line-styles?focused=6792901&tab=example
 
 using SpecialFunctions
@@ -21,7 +21,7 @@ y3 = besselj.(3,x);
 y4 = besselj.(4,x);
 
 plot(x, [y0 y1 y2 y3 y4], line=(3, style))
-```
+````
 
 ---
 

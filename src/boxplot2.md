@@ -2,7 +2,7 @@
 
 ![boxplot2.png](images/boxplot2.png)
 
-```julia
+````julia
 # This outputs BoundsError. This is a bug of StatPlots.jl.
 # Boxplot and violin broken - https://github.com/JuliaPlots/StatPlots.jl/issues/198
 using StatsPlots, Statistics, Random
@@ -16,7 +16,7 @@ english = rand(1:10, n)
 @show median(english)
 
 boxplot([science english], label=["science" "english"])
-```
+````
 
 ---
 

@@ -8,6 +8,7 @@ services:
 
     volumes:
       - .:/home/jovyan/PlotsGallery
+      - $HOME/.Xauthority:/home/jovyan/.Xauthority:rw
 
     working_dir: /home/jovyan/PlotsGallery
     entrypoint: bash /home/jovyan/PlotsGallery/entrypoint.sh

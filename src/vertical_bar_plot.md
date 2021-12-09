@@ -5,7 +5,7 @@
 
 https://jp.mathworks.com/matlabcentral/fileexchange/35271-matlab-plot-gallery-vertical-bar-plot?focused=6793087&tab=example
 
-```julia
+````julia
 using StatsPlots
 
 measles = [38556, 24472, 14556, 18060, 19549, 8122, 28541, 7880, 3283, 4135, 7953, 1884]
@@ -14,7 +14,7 @@ chickenPox = [37140, 32169, 37533, 39103, 33244, 23269, 16737, 5411, 3435, 6052,
 
 ticklabel = string.(collect('A':'L'))
 groupedbar([measles mumps chickenPox], bar_position = :dodge, bar_width=0.7, xticks=(1:12, ticklabel))
-```
+````
 
 ---
 

@@ -2,7 +2,7 @@
 
 ![heatmap.png](images/heatmap.png)
 
-```julia
+````julia
 using Random
 Random.seed!(2018)
 
@@ -17,7 +17,7 @@ nrow, ncol = size(a)
 ann = [(i,j, text(round(a[i,j], digits=2), fontsize, :white, :center))
             for i in 1:nrow for j in 1:ncol]
 annotate!(ann, linecolor=:white)
-```
+````
 
 ---
 
