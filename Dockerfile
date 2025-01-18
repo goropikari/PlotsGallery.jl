@@ -1,17 +1,17 @@
-FROM jupyter/base-notebook:notebook-6.2.0
+FROM quay.io/jupyter/base-notebook:notebook-7.3.2
 
-ENV JULIA_VERSION=1.7.0
-RUN wget https://julialang-s3.julialang.org/bin/linux/x64/$(echo ${JULIA_VERSION} | cut -d. -f1,2)/julia-${JULIA_VERSION}-linux-x86_64.tar.gz && \
-    tar xvf julia-${JULIA_VERSION}-linux-x86_64.tar.gz && \
-    ./julia-$JULIA_VERSION/bin/julia -e 'using Pkg; Pkg.update(); Pkg.pkg"add Plots IJulia"; Pkg.precompile()'
-
+ENV JULIA_VERSION=1.11.2
+ENV PATH=$PATH:/home/jovyan/.juliaup/bin
 USER root
 RUN apt-get update && \
-    apt-get install -y texlive-science texlive-latex-extra cm-super dvipng imagemagick && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* && \
-    ln -s $(pwd)/julia-$JULIA_VERSION/bin/julia /usr/bin/julia
+    apt-get upgrade -y && \
+    apt-get install -y curl && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 USER $NB_UID
-RUN conda install --quiet --yes matplotlib
+RUN curl -fsSL https://install.julialang.org | sh -s -- -y \
+    && juliaup add $JULIA_VERSION \
+    && juliaup default $JULIA_VERSION \
+    && julia -e 'using Pkg; Pkg.update(); Pkg.pkg"add Plots IJulia"; Pkg.precompile()'
 
-CMD /opt/conda/bin/jupyter notebook
+CMD start-notebook.py --NotebookApp.token='my-token'
